@@ -5,7 +5,7 @@ div #content {
   }
 div #hero-msg h1{ text-align: center}
 div #hero-msg h4 { text-align: center}
-div button-box { text-align: center}
+div .button-box { text-align: center}
 div main section { text-align: center}
 div nav a { text-align: center}
 #background {  height: 725px; }
