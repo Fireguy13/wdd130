@@ -1,35 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Solway:wght@300&display=swap');
+
 div #content { 
     text-align: center;
-        width: 1600px;
-        ;
+    width: 1600px;
   }
+
 div #hero-msg h1{ text-align: center}
+
 div #hero-msg h4 { text-align: center}
+
 div .button-box { text-align: center}
+
 div main section { text-align: center}
+
 div nav a { text-align: center}
+
 #background {  height: 725px; }
 
-body{  background-color: #1fe4e48e;}
+body{ font-family:'Solway', serif; 
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  background-color: #1fe4e48e;
+  margin: 0;
+  padding: 0;
+}
+
 header{  background-color:rgba(11, 49, 138, 0.523);}
+
 nav a:hover{  background-color:rgba(20,30,13, .7);}  
-.book, .join{  background-color: #1fe4e48e;text-align: center; color:
-   #0e0d0d; text-decoration: none; }
+
+.book, .join{   
+  font-size: 18px; 
+  background-color: #1fe4e48e;text-align: 
+  center; color: #0e0d0d; 
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px  35px; 
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
 .book:hover, .join:hover{ background-color:rgba(100, 223, 12, 0.7); }
+
 #background{ background-color:rgba(20,30,13, .7);}
-.msg{ background-color: #1fe4e48e;}
-footer      { background-color: #1fe4e48e;} 
 
-nav a{ background-color: rgb(235, 20, 20);  color: #d9c2a3;text-align: 
-  center; color:   #fcfbfb; text-decoration: none;}   
-.home-title{  background-color: rgb(235, 20, 20); color: #d9c2a3;}    
-h4{ background-color: rgb(235, 20, 20); color: #d9c2a3;}    
-.msg h2{ background-color: rgb(235, 20, 20); color: #d9c2a3;}    
-.msg p{ background-color: rgb(235, 20, 20); color: #d9c2a3;}    
-footer h3{ background-color: rgb(235, 20, 20); color: #d9c2a3; }    
-footer a{ background-color: rgb(235, 20, 20); color: #d9c2a3;text-align: 
-  center; color: #fcfbfb; text-decoration: none;}    
-footer a:hover{ background-color: rgb(235, 20, 20); color: #d9c2a3;}  
+.msg{
+  line-height: 1.5em; margin: 0;
+  background-color: #1fe4e48e;
+  padding: 35px;
+}
 
-.logo { width: 100px;}
+footer{ 
+  background-color: #1fe4e48e;
+  padding: 25px 50px;
+  margin-top: 200px;
+  } 
+
+nav a{ 
+  background-color: rgb(235, 20, 20);
+  color:#d9c2a3;
+  text-align: center; color: #fcfbfb;
+  text-decoration: none;
+  padding: 35px;
+  }
+
+.home-title{ font-family: 'Baloo Bhai 2', cursive;  
+  font-size: 2em;
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3; 
+  margin-top: 10px;
+}  
+
+h4{
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3;
+} 
+
+.msg h2{
+  margin: 0; 
+  font-family: 'Solway', serif;
+  background-color: rgb(235, 20, 20); 
+  color: #d9c2a3;
+}  
+
+.msg p{ 
+  font-size: .8em;
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3;
+  padding-bottom: 15px;
+}    
+footer h3{ 
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3; 
+  }  
+
+footer a{
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3;text-align: 
+  center; color: #fcfbfb;
+  text-decoration: none;
+}   
+
+footer a:hover{ 
+  background-color: rgb(235, 20, 20);
+  color: #d9c2a3;
+  }  
+
+.logo {
+  width: 100px;
+  padding-top: 5px;}
+
 #hero-img {width: 100%; }
+
+.icon {padding-top: 10px;}
+
+footer .social img {padding-top: 15px;}
+
+.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+
+main section img {
+  box-sizing: border-box;
+}
