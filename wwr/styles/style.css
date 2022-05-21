@@ -113,7 +113,9 @@ footer a:hover{
 
 #hero-img {width: 100%; }
 
-.icon {padding-top: 10px;}
+.icon {
+  width: 80px;
+  padding-top: 10px;}
 
 footer .social img {padding-top: 15px;}
 
