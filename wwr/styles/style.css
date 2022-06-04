@@ -27,8 +27,41 @@ body{ font-family:'Solway', serif;
   padding: 0;
 }
 
-header{  background-color:rgba(11, 49, 138, 0.523);}
+header{ 
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color:rgba(11, 49, 138, 0.523);}
+    
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+             
+nav {
+  display: flex;
+  justify-content: space-around;
+}           
 
+nav a:hover{   
+  background-color:rgba(20,30,13, .7);} 
+  
+#hero {
+  display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+#hero-msg h4 {
+  color: white;
+}
+           
+           
+           
 nav a:hover{  background-color:rgba(20,30,13, .7);}  
 
 .book, .join{   
