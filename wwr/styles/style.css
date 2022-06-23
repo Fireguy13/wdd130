@@ -182,7 +182,13 @@ footer .social img {padding-top: 15px;}
 main section img {
   box-sizing: border-box;
 }
+
 .home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.river-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -287,5 +293,34 @@ footer {
       margin-top: 25px;
   }
 }
+.nesstled {  
+  display: grid;  
+  grid-template-rows: repeat(3,1fr);
+  justify-items: center;
+  align-items: center;
+  
+}
 
+.frank{
+  width: 80%;
+  
+  
+  border: 10px solid rgb(235, 20, 20);
+  
+  
+}
+
+.elk {
+  width: 80%;
+  
+  border: 10px solid rgb(235, 20, 20);
+ 
+}
+
+.the-rapid{
+  width: 80%; 
+  border: 10px solid rgb(235, 20, 20);
+ 
+  
+}
           

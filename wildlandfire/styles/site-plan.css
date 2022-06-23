@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #FFFFFF  ;
   --secondary-color: #F02011 ;
-  --accent1-color: #D92704;
-  --accent2-color: #DB182C;
+  --accent1-color: #f3d13b;;
+  
 
   /* change the values below to your chosen font(s) */
   --heading-font: "'Charis SIL', serif;";
