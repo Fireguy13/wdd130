@@ -135,8 +135,9 @@ footer a:hover{
   grid-column: center;
 }
 
-.msg h2{
-  margin: 0; 
+.h2{
+  border: 10px solid #F02011;;
+  margin: 20; 
   font-family: 'Charis SIL', serif;
   background-color: rgb(235, 20, 20); 
   color: #d9c2a3;
